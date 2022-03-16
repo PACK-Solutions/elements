@@ -3551,12 +3551,10 @@
   dependencies:
     eslint-config-prettier "^8.3.0"
 
-"@stoplight/http-spec@^4.3.1":
-  version "4.3.1"
-  resolved "https://registry.yarnpkg.com/@stoplight/http-spec/-/http-spec-4.3.1.tgz#346b4ad91ae7dcf40851106002c4c46c4cc4194c"
-  integrity sha512-uuZPdmU30fQnBcR/H8IDqB0wMSDRw8ue8LH7gQGNOkxpXxHVGHi4oFx3hFrPr61fIMBiFXBnuw06Da+qe7LsXQ==
+"@stoplight/http-spec@^4.3.1", "@stoplight/http-spec@file:.yalc/@stoplight/http-spec":
+  version "0.0.0"
   dependencies:
-    "@stoplight/json" "^3.10.2"
+    "@stoplight/json" "^3.17.1"
     "@stoplight/types" "^12.4.0"
     "@types/swagger-schema-official" "~2.0.21"
     "@types/to-json-schema" "^0.2.0"
@@ -3567,6 +3565,7 @@
     lodash "^4.17.15"
     openapi3-ts "^2.0.1"
     postman-collection "^4.1.0"
+    tslib "^2.3.1"
     type-is "^1.6.18"
     urijs "~1.19.2"
 
@@ -3625,7 +3624,7 @@
     jotai "^1.4.5"
     lodash "^4.17.19"
 
-"@stoplight/json@^3.10.0", "@stoplight/json@^3.10.2", "@stoplight/json@^3.12.0", "@stoplight/json@^3.17.1":
+"@stoplight/json@^3.10.0", "@stoplight/json@^3.12.0", "@stoplight/json@^3.17.1":
   version "3.17.1"
   resolved "https://registry.yarnpkg.com/@stoplight/json/-/json-3.17.1.tgz#17aa8f17c58678649cd0d345fb184e0bea16f8df"
   integrity sha512-OQbjaPU9/VPQYa3zEfN82vjXu3vWv/537Ei7TX/xYLMPdpdBI/mCyThdZAG4SN1t3iho2dxIKpTVObuCTTgBvA==
@@ -21400,7 +21399,7 @@ tslib@^1.8.1, tslib@^1.9.0, tslib@^1.9.3:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
-tslib@^2, tslib@^2.0.0, tslib@^2.0.1, tslib@^2.0.3, tslib@^2.1.0, tslib@^2.2.0, tslib@^2.3.0:
+tslib@^2, tslib@^2.0.0, tslib@^2.0.1, tslib@^2.0.3, tslib@^2.1.0, tslib@^2.2.0, tslib@^2.3.0, tslib@^2.3.1:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
   integrity sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==
